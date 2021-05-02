@@ -3,7 +3,8 @@
 
 export default function App() {
   return (
-   <p>Hello</p>
+    <h1>Hear is the footer</h1>
+
   );
 }
 

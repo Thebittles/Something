@@ -9,7 +9,7 @@ export const Inner = styled.div`
   display: flex;
   padding: 70px 45px;
   flex-direction: column;
-  max-width: 815px;
+  max-width: 915px;
   margin: auto;
 `;
 
@@ -29,7 +29,7 @@ export const Item = styled.div`
   color: white;
   margin: auto;
   margin-bottom: 10px;
-  max-width: 670px;
+  max-width: 815px;
   width: 100%;
   &:first-of-type {
     margin-top: 3em;
@@ -52,7 +52,7 @@ export const Header = styled.div`
   align-items: center;
   img {
     filter: brightness(0) invert(1);
-    width: 24px;
+    width: 22px;
     user-select: none;
     @media (max-width: 600px) {
       width: 16px;

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Accordion } from '../components';
-import OptinForm from '../components/optin-form';
+import { Accordion, OptinForm } from '../components';
 import faqsData from '../fixtures/faq.json';
 
 export function FaqsContainer() {
@@ -18,9 +17,8 @@ export function FaqsContainer() {
           <OptinForm.Input placeholder="Email address" />
           <OptinForm.Button>Try it now</OptinForm.Button>
           <OptinForm.Break />
-          <OptinForm.Text>Ready to watch? Enter your email or restart your membership.</OptinForm.Text>
-        </OptinForm>
-      
+          <OptinForm.Text>Ready to watch? Enter your email to create or restart your membership.</OptinForm.Text>
+        </OptinForm>    
     </Accordion>
   );
 }

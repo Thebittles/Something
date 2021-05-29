@@ -26,3 +26,9 @@ yarn-error.log*
 
 #// Britt
 .env
+
+
+/lib
+/config
+firebase.prod.js
+config.js

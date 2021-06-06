@@ -10,5 +10,7 @@
 
 ## Phase 1
 
--install dependencies
+- [ ] install dependencies
+- [ ] watch up to 40 mins. - 1 hr mark on video 
+- [ ] 
 

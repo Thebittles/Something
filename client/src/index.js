@@ -16,3 +16,12 @@ render(
   document.getElementById('root'));
 
 
+render(
+  <>
+    <FirebaseContext.Provider value={{ firebase }}>
+      <GlobalStyles />
+      <App />
+    </FirebaseContext.Provider>
+  </>,
+  document.getElementById("root")
+);

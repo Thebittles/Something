@@ -24,7 +24,6 @@ export const Title = styled.h1`
     font-size: 35px;
   }
 `;
-
 export const Item = styled.div`
   color: white;
   margin: auto;
@@ -38,7 +37,6 @@ export const Item = styled.div`
     margin-bottom: 0;
   }
 `;
-
 export const Header = styled.div`
   display: flex;
   justify-content: space-between;

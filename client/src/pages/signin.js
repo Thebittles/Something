@@ -1,6 +1,5 @@
-import React from 'react'; 
+import React from 'react';
 
-
-export default function Signin(){
-    return <p>Hello from the sign in!</p>;
+export default function SignIn() {
+  return <p>Hello from the sign in!</p>;
 }

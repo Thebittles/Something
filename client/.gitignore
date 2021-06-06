@@ -27,7 +27,7 @@ yarn-error.log*
 #// Britt
 .env
 
-
+#// keep firebase account info private
 /lib
 /config
 firebase.prod.js

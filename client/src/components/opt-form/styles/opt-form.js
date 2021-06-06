@@ -1,5 +1,4 @@
 import styled from 'styled-components/macro';
-
 export const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -11,7 +10,6 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
-
 export const Input = styled.input`
   max-width: 450px;
   width: 100%;
@@ -20,12 +18,10 @@ export const Input = styled.input`
   height: 70px;
   box-sizing: border-box;
 `;
-
 export const Break = styled.div`
   flex-basis: 100%;
   height: 0;
 `;
-
 export const Button = styled.button`
   display: flex;
   align-items: center;
@@ -55,7 +51,6 @@ export const Button = styled.button`
     font-weight: bold;
   }
 `;
-
 export const Text = styled.p`
   font-size: 19.2px;
   color: white;

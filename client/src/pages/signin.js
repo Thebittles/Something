@@ -14,7 +14,7 @@ export default function SignIn() {
   const [error, setError] = useState('');
 
   //check form input elements are valid 
-  const isInvalid = password == '' || emailAddress == '';
+  const isInvalid = password === '' || emailAddress === '';
   const handleSignin = (event) => {
     event.preventDefault();
     //firebase work here.
@@ -28,7 +28,7 @@ export default function SignIn() {
     .catch((error) => {
       setEmailAddress('');
       setPassword('');
-      setError(errror.message);
+      setError(error.message);
     })
   };
 
@@ -51,7 +51,7 @@ export default function SignIn() {
               autoComplete="off"
               onChange={({target}) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type="submit">
+            <Form.Submit disabled={isInvalid} type="submit" data-testid="sign-in">
               Sign In
             </Form.Submit>
           </Form.Base>

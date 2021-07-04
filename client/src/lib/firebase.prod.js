@@ -12,7 +12,12 @@ import 'firebase/auth';
 // MUST REMOVE CONFIG INFO BEFORE PUSH TO GITHUB!!!!!!!!!!!
 
 const config = {
-  
+    apiKey: "AIzaSyCrSyXfXq7QODETp2W-pitPkasQVUBvJOM",
+    authDomain: "netflix-118ab.firebaseapp.com",
+    projectId: "netflix-118ab",
+    storageBucket: "netflix-118ab.appspot.com",
+    messagingSenderId: "19767061583",
+    appId: "1:19767061583:web:030fcf7e6d6de365514e3a"
 };
 
 const firebase = Firebase.initializeApp(config);

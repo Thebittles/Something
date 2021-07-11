@@ -20,7 +20,7 @@ export default function SignIn() {
     //firebase work here.
     firebase
     .auth()
-    .signInWtihEmailAndPassword(emailAddress, password)
+    .signInWithEmailAndPassword(emailAddress, password)
     .then(() => {
       //push to the browser page
       history.push(ROUTES.BROWSE);
